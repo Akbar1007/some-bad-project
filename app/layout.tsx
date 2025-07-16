@@ -1,8 +1,8 @@
 import { Geist, Geist_Mono } from 'next/font/google'
 
+import { ChildProps } from '@/types'
 import type { Metadata } from 'next'
 import './globals.css'
-import { ChildProps } from '@/types'
 
 const geistSans = Geist({
 	variable: '--font-geist-sans',

@@ -1,9 +1,7 @@
-import React from 'react'
-import { Button } from '@/components/ui/button'
-import { ArrowRight, ArrowUpRight, Globe } from 'lucide-react'
+import { ArrowUpRight, Globe } from 'lucide-react'
 import Link from 'next/link'
-import ExampleUsage from '@/components/shared/feature-card'
-import FeatureCard from '@/components/shared/feature-card'
+
+import { Button } from '@/components/ui/button'
 
 export default function SayyohHomepage() {
 	return (

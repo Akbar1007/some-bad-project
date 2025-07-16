@@ -3,6 +3,7 @@
 import { Languages } from 'lucide-react'
 import Image from 'next/image'
 
+import { lngs } from '@/constants'
 import { Button } from '../ui/button'
 import {
 	DropdownMenu,
@@ -11,7 +12,6 @@ import {
 	DropdownMenuItem,
 	DropdownMenuTrigger,
 } from '../ui/dropdown-menu'
-import { lngs } from '@/constants'
 
 function LanguageDropdown() {
 	return (
