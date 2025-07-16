@@ -1,6 +1,7 @@
 import { ArrowUpRight, Globe } from 'lucide-react'
 import Link from 'next/link'
 
+import FeatureCard from '@/components/shared/feature-card'
 import { Button } from '@/components/ui/button'
 
 export default function SayyohHomepage() {
@@ -70,6 +71,9 @@ export default function SayyohHomepage() {
 					</div>
 				</main>
 			</div>
+
+			{/* feature section */}
+			<FeatureCard />
 		</div>
 	)
 }
