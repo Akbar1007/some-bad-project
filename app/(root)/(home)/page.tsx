@@ -31,7 +31,7 @@ export default function SayyohHomepage() {
 							<Globe className='h-4 w-4' />
 							<span className='text-sm'>EN</span>
 						</div>
-						<Button className='bg-cyan-500 hover:bg-cyan-600 text-white px-6 py-2 cursor-pointer rounded-full text-sm'>
+						<Button className='bg-cyan-500 hover:bg-cyan-600 text-black px-6 py-2 cursor-pointer rounded-full text-sm'>
 							<Link href={'/sign-up'}>Sign up</Link>
 						</Button>
 						<Button
@@ -64,7 +64,7 @@ export default function SayyohHomepage() {
 								<Link href={'/ai'}>Try the Demo</Link>
 								<ArrowUpRight />
 							</Button>
-							<Button className='bg-cyan-500 hover:bg-cyan-600 text-white px-8 py-3 text-base rounded-full'>
+							<Button className='bg-cyan-500 hover:bg-cyan-600 text-black px-8 py-3 text-base rounded-full'>
 								<Link href={'/sign-up'}>Register</Link>
 							</Button>
 						</div>
