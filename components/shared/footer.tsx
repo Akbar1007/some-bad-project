@@ -20,7 +20,7 @@ const Footer = () => {
 							Features
 						</Link>
 						<Link
-							href='/demo'
+							href='/ai'
 							className='hover:text-gray-900 transition-colors duration-200'
 						>
 							Try the Demo

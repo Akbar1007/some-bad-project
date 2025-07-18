@@ -2,8 +2,6 @@ import { ArrowRight } from 'lucide-react'
 import Link from 'next/link'
 import React from 'react'
 
-// Example constants file structure - you can replace this with your actual constants
-
 interface InteractiveCardProps {
 	title: string
 	description: string
@@ -21,21 +19,17 @@ const InteractiveCard: React.FC<InteractiveCardProps> = ({
 }) => {
 	return (
 		<div className='bg-white rounded-3xl p-8 shadow-sm border border-gray-100 max-w-2xl relative overflow-hidden'>
-			{/* Decorative background elements */}
 			<div className='absolute top-0 right-0 w-32 h-32 bg-blue-50 rounded-full -translate-y-16 translate-x-16'></div>
 			<div className='absolute bottom-0 left-0 w-24 h-24 bg-blue-100 rounded-full translate-y-12 -translate-x-12'></div>
 
 			<div className='relative z-10'>
-				{/* Tag */}
 				<div className='inline-block mb-6'>
 					<span className='px-4 py-2 bg-gray-100 text-gray-600 rounded-full text-sm font-medium'>
 						{tagText}
 					</span>
 				</div>
 
-				{/* Content container */}
 				<div className='flex items-start justify-between gap-8'>
-					{/* Left content */}
 					<div className='flex-1'>
 						<h2 className='text-4xl font-bold text-gray-900 mb-6 leading-tight'>
 							{title}
@@ -54,8 +48,7 @@ const InteractiveCard: React.FC<InteractiveCardProps> = ({
 						</Link>
 					</div>
 
-					{/* Right icon */}
-					<div className='flex-shrink-0'>
+					<div className='flex-shrink-0 max-md:hidden'>
 						<div className='text-gray-800'>
 							<Icon />
 						</div>
@@ -133,7 +126,6 @@ const ICONS = {
 	),
 }
 
-// Example usage component showing how to use it with different content
 const FeatureCard = () => {
 	return (
 		<div className='relative min-h-screen'>
