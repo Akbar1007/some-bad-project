@@ -2,6 +2,7 @@ import { ArrowRight, ArrowUpRight, Globe } from 'lucide-react'
 import Link from 'next/link'
 
 import FeatureCard from '@/components/shared/feature-card'
+import Footer from '@/components/shared/footer'
 import { Button } from '@/components/ui/button'
 
 export default function SayyohHomepage() {
@@ -165,6 +166,9 @@ export default function SayyohHomepage() {
 					</div>
 				</div>
 			</div>
+
+			{/* footer */}
+			<Footer />
 		</div>
 	)
 }
