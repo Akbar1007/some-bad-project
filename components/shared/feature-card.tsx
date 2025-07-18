@@ -137,9 +137,8 @@ const ICONS = {
 const FeatureCard = () => {
 	return (
 		<div className='relative min-h-screen'>
-			{/* Background image with overlay */}
 			<div
-				className='absolute inset-0 bg-cover bg-center bg-no-repeat'
+				className='absolute inset-0 bg-cover bg-center bg-no-repeat opacity-80'
 				style={{
 					backgroundImage: 'url(/assets/home-bg-1.png)',
 				}}
@@ -147,7 +146,6 @@ const FeatureCard = () => {
 				<div className='absolute inset-0 bg-black/40'></div>
 			</div>
 
-			{/* Content */}
 			<div className='relative z-10 p-8'>
 				<div className='grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-7xl mx-auto'>
 					<InteractiveCard
